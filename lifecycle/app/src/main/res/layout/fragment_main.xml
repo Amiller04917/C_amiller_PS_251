@@ -3,30 +3,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+<<<<<<< HEAD
     <data>
         <import type="android.view.View" />
         <variable
         name="viewModel"
         type="edu.wccnet.amiller.lifecycle.ui.main.MainViewModel" />
     </data>
+=======
+>>>>>>> 67b09fb9078468529495c9f135f1f2f55d8ccfde
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.main.MainFragment">
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 67b09fb9078468529495c9f135f1f2f55d8ccfde
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="@{viewModel.struc}"
+=======
+            android:text=""
+>>>>>>> 67b09fb9078468529495c9f135f1f2f55d8ccfde
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -37,6 +48,8 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+=======
+>>>>>>> 67b09fb9078468529495c9f135f1f2f55d8ccfde
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
