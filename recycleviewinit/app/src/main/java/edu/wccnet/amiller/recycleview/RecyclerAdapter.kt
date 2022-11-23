@@ -47,11 +47,11 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
     }
 
     override fun onBindViewHolder(viewHolder: ViewHolder, i: Int) {
-
         viewHolder.itemTitle.text = titles[randomTIndex[i]]
         viewHolder.itemDetail.text = details[randomDIndex[i]]
         viewHolder.itemImage.setImageResource(images[randomIIndex[i]])
     }
+
 
     override fun getItemCount(): Int {
         return titles.size
