@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     suspend fun performTask(nameText: String): Deferred<Array<Pair<String, Long>>> =
         coroutineScope.async(Dispatchers.Main) {
-            val del: Long =  Random.nextLong(1000, 9000)
+            val del: Long = ((Random.nextInt(1, 10)) * 1000).toLong()
             delay(del)
             data.addList(Pair<String, Long>(nameText, del))
             return@async data.getList()
